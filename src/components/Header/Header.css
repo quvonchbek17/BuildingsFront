@@ -1,0 +1,16 @@
+.header_container {
+    margin: 0 auto;
+    padding: 10px 25px;
+    position:  absolute;
+    width: 100%;
+}
+
+.header {
+    background-color: #0F1E54;
+}
+
+.login-link{
+    padding: 5px 10px !important;
+    border-radius: 10px !important;
+
+}

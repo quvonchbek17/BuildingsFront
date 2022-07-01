@@ -1,0 +1,14 @@
+.home {
+    padding-top: 100px;
+}
+
+select{
+    margin: 10px;
+}
+
+.House-body {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+}

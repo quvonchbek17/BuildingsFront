@@ -1,0 +1,86 @@
+.admin {
+    height: 100vh;
+}
+
+.adminBtns {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration:  none;
+}
+
+.logoutbtn {
+    position:  absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+
+.login {
+    background-image: url("https://40obml2t8u691fd442y9pg71-wpengine.netdna-ssl.com/wp-content/uploads/login-page-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:  100vh;
+
+}
+.login__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__form {
+  padding: 30px 50px;
+  border-radius: 10px;
+  background: transparent;
+
+}
+
+.login__username {
+  width: 270px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 15px;
+  padding: 6px 2px;
+}
+
+.login__username i {
+  padding: 8px 12px;
+  color: #fff;
+}
+.login__username input {
+  border: 0px solid #c1c1c1;
+  width: 100%;
+  color: white;
+  outline: none;
+  height: 30px;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+.login__btn {
+  width: 100%;
+  border: 0px solid #c1c1c1;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  color: #0d75ff;
+  font-size: 22px;
+}
+
+.login__forgot {
+  margin: 0;
+  color: #fff;
+  margin-top: 10px;
+  text-align: right;
+}

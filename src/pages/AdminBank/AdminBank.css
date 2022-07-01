@@ -1,0 +1,43 @@
+
+
+.banks {
+    height:100vh;
+    overflow-y: scroll;
+
+}
+
+.bankslist {
+    padding-top: 120px;
+}
+
+.bank {
+    width: 1000px;
+    border-bottom: 2px solid black;
+
+}
+
+.add-btn {
+    position: absolute;
+    top: 90px;
+    left: 20px ;
+}
+
+.admin-links {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    display: flex;
+    flex-direction: column ;
+}
+.admin-link {
+    border:1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align:  center;
+}
+
+.bank-desc {
+    width: 166px;
+    text-align:  center;
+}
